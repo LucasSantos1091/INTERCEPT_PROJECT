@@ -1,30 +1,21 @@
 ##  **Guia de Configuração e Uso do Cypress com cy.intercept()**
-*###  **Introdução**
+###  **Introdução**
 Este tutorial mostra como montar uma Proof of Concept (POC) usando Cypress para testar uma aplicação web, focando no uso do comando cy.intercept() para interceptar requisições HTTP.
 
 
 #### *1. Configuração do Cypress*
 Passo 1: Instalar o Cypress
-bash
-Copy
-npm install cypress --save-dev
 
-Passo 2: Abrir o Cypress pela primeira vez
-bash
-Copy
+```bash
+npm install cypress --save-dev
+```
+#### Passo 2: Abrir o Cypress pela primeira vez
+
+```bash
 npx cypress open
+```
 Isso criará as pastas padrão (cypress/) com exemplos de testes.
 
-Passo 3: Estrutura básica do projeto
-Crie ou edite um arquivo de teste dentro de cypress/e2e/, por exemplo: example_spec.cy.js.
+#### Passo 3: Estrutura básica do projeto
 
-2. Como usar o cy.intercept()
-Você pode usar o comando cy.intercept() para interceptar requisições feitas pela sua aplicação a APIs específicas. Com ele, é possível fornecer respostas mockadas, o que facilita testar a interface de forma controlada, sem depender de um backend real.
-
-O método cy.intercept() permite:
-
-Capturar requisições feitas ao servidor
-Substituir a resposta padrão por dados personalizados
-Temporariamente simular diferentes cenários de backend
-3. Explicação simples do intercept
-cy.intercept() serve para "pegar" as requisições que sua aplicação faz ao servidor e, se desejar, responder com dados simulados (mockados). Assim, podemos testar contra respostas específicas, sem depender do backend ou de dados reais. Isso ajuda a testar sua interface de forma mais rápida e controlada.
+TBD
