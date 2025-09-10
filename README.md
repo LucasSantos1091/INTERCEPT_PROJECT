@@ -2,6 +2,8 @@
 ###  **Introdução**
 Este tutorial mostra como montar uma Proof of Concept (POC) usando Cypress para testar uma aplicação web, focando no uso do comando cy.intercept() para interceptar requisições HTTP.
 
+#### Precondições:
+- Node.js 17 ou superiot
 
 #### *1. Configuração do Cypress*
 Passo 1: Instalar o Cypress
