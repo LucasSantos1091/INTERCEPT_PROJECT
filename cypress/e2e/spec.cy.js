@@ -1,5 +1,14 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
+
+describe('visite a tela de cartão', () => {
+  beforeEach(() => {
+    cy.access();
+  });
+   it('passes', () => {
+    cy.fillDataCards();
+  });
+
+ 
+    
+    
+});
+
